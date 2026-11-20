@@ -1,5 +1,5 @@
-/* Wortkasten offline cache. 202611202200 changes with every release, so phones pick up updates. */
-const V='wk-202611202200';
+/* Wortkasten offline cache. 202611202201 changes with every release, so phones pick up updates. */
+const V='wk-202611202201';
 const CORE=['./','index.html','app.css','fonts.css','i18n.js','app.js','config.js','manifest.webmanifest','dict.json',
   'icons/wk2-192.png','icons/wk2-512.png','icons/wk2-maskable-512.png','icons/wk2-apple-touch-icon.png','icons/wk2-favicon-64.png',
   'fonts/inter-latin-wght-normal.woff2','fonts/inter-latin-ext-wght-normal.woff2','fonts/literata-latin-opsz-normal.woff2','fonts/literata-latin-ext-opsz-normal.woff2','fonts/vazirmatn-arabic-wght-normal.woff2'];
