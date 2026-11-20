@@ -14,3 +14,4 @@ App code and design © 2026 Amir. All rights reserved. The code in this reposito
 
 - Dictionary data (`dict.json`) is built from open data and keeps their licences: Wiktionary noun data via *german-nouns* (CC BY-SA 4.0), *OdeNet* (CC BY-SA 4.0), Princeton WordNet 3.0 (WordNet licence), *lemmatization-lists* (ODbL), *FrequencyWords* (CC BY-SA 4.0), Pattern de-verbs (BSD). The dictionary data may be reused under those licences.
 - Fonts Inter, Literata and Vazirmatn: SIL Open Font License 1.1.
+- Native pronunciation recordings are played on demand from Wikimedia Commons (contributors, mostly CC BY-SA); they are not stored in this repository.
