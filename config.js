@@ -3,6 +3,6 @@
    claudeUrl:  link to the Claude version of Wortkasten (AI features). */
 window.WK_WEB = true;
 window.WK_CFG = {
-  dropboxKey: "",
+  dropboxKey: "3wp559bfih84zn0",
   claudeUrl: "https://claude.ai/artifact/GxnTgBPbbqTDeZ3g5LeCae"
 };
