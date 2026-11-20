@@ -18,10 +18,11 @@
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
+<div id="splash" aria-hidden="true"><img src="icons/wk2-512.png" alt="" width="112" height="112" onerror="this.remove()"><b>Wortkasten</b></div>
 <header class="top">
   <div class="brand" data-act="home" role="button" tabindex="0" aria-label="Home"><span class="logo" aria-hidden="true"><b style="background:#1b5fd9"></b><b style="background:#d7262e"></b><b style="background:#1a9447"></b></span><span>Wortkasten</span></div>
   <div class="sync" id="sync" role="status">Loading…</div>
-  <button class="iconbtn langbtn" id="langBtn" data-act="cycleLang" aria-label="Language">EN</button>
+  <div class="langpill" id="langPill" role="group" aria-label="Language"><button data-act="setv" data-k="ui" data-v="en">EN</button><button data-act="setv" data-k="ui" data-v="de">DE</button><button data-act="setv" data-k="ui" data-v="fa" lang="fa">فا</button></div>
   <button class="iconbtn menubtn" id="gear" data-act="tab" data-tab="settings" aria-label="Settings"><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></svg></button>
 </header>
 
