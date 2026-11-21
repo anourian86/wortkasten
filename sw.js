@@ -1,8 +1,8 @@
-/* Wortkasten offline cache. 202611210058 changes with every release, so phones pick up updates. */
-const V='wk-202611210058';
+/* Wortkasten offline cache. 202611210121 changes with every release, so phones pick up updates. */
+const V='wk-202611210121';
 const CORE=['./','index.html','app.css','fonts.css','i18n.js','app.js','config.js','manifest.webmanifest','dict.json',
   'icons/wk3-192.png','icons/wk3-512.png','icons/wk3-maskable-512.png','icons/wk3-apple-touch-icon.png','icons/wk3-favicon-64.png',
-  'fonts/inter-latin-wght-normal.woff2','fonts/inter-latin-ext-wght-normal.woff2','fonts/literata-latin-opsz-normal.woff2','fonts/literata-latin-ext-opsz-normal.woff2','fonts/vazirmatn-arabic-wght-normal.woff2'];
+  'fonts/inter-latin-wght-normal.woff2','fonts/inter-latin-ext-wght-normal.woff2','fonts/literata-latin-opsz-normal.woff2','fonts/literata-latin-ext-opsz-normal.woff2','fonts/vazirmatn-arabic-wght-normal.woff2','fonts/fredoka-latin-wght-normal.woff2'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(CORE.map(u=>new Request(u,{cache:'reload'}))))) });
 self.addEventListener('message',e=>{if(e.data==='skip')self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('wk-')&&k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
